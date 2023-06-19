@@ -12,9 +12,7 @@
   --white-color: #ffffff;
   --dairy-color: #fcfcfc;
 }
-
 /* ==================Body================== */
-
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white-color);
@@ -80,7 +78,6 @@ button {
   margin: 0 auto;
   padding: 0 15px;
 }
-
 /* ==================Header================== */
 .header {
   border-bottom: 1px solid var(--cornflower-color);
@@ -246,7 +243,6 @@ button {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: var(--navy-blue-color);
 }
 
@@ -352,10 +348,8 @@ button {
 .hero-btn:focus {
   background-color: var(--ocean-color);
 }
-
 /* ==================End Hero================== */
 /* ==================Features================== */
-
 .features {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -396,10 +390,8 @@ button {
   letter-spacing: 0.02em;
   color: var(--slate-color);
 }
-
 /* ==================End Features================== */
 /* ==================What are we doing================== */
-
 .whatdoing {
   padding-bottom: 120px;
 }
@@ -428,10 +420,8 @@ button {
   border: 1px solid var(--cornflower-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
 /* ==================End What are we doing================== */
 /* ==================Our team================== */
-
 .team {
   background-color: var(--cloud-color);
   padding-top: 96px;
@@ -520,10 +510,8 @@ button {
 .team-icon {
   fill: var(--cloud-color);
 }
-
 /* ==================End Our team================== */
 /* ==================Customers================== */
-
 .customers {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -572,7 +560,6 @@ button {
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 /* ==================End Customers================== */
 /* ==================End Main Page================== */
 
@@ -581,7 +568,6 @@ button {
   background-color: var(--navy-blue-color);
   padding: 96px 0;
 }
-
 /* ==================Footer Logo================== */
 .footer-logo-box {
   max-width: 268px;
@@ -601,8 +587,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud-color);
-  /* text-align: start; */
-  /* max-width: 264px; */
 }
 /* ==================End Footer Logo================== */
 /* ==================Footer Social Media================== */
@@ -721,12 +705,13 @@ button {
 }
 /* ==================End Footer Subscribe================== */
 /* ==================End Footer================== */
+
 /* ==================Modal window================== */
 .backdrop {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 1000;
   width: 100%;
   height: 100%;
   background-color: var(--navy-blue-modal);
@@ -938,19 +923,17 @@ button {
 .send-btn:focus {
   background-color: var(--ocean-color);
 }
-
 /* ==================End Modal window================== */
-/* ==================Portfolio================== */
 
+/* ==================Portfolio================== */
 .portfolio {
-  padding: 96px 0 120px;
+  padding: 48px 0;
 }
 
 .portfolio-list-btns {
   display: flex;
-  justify-content: center;
+  margin-bottom: 48px;
   gap: 24px;
-  margin-bottom: 72px;
 }
 
 .portfolio-btn {
@@ -964,7 +947,7 @@ button {
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--iris-color);
-  padding: 12px 24px;
+  padding: 8px 16px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -982,13 +965,6 @@ button {
 
 .portfolio-list {
   display: flex;
-  flex-wrap: wrap;
-  row-gap: 48px;
-  column-gap: 24px;
-}
-
-.portfolio-list-item {
-  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-link {
@@ -1050,5 +1026,4 @@ button {
   letter-spacing: 0.02em;
   color: var(--slate-color);
 }
-
 /* ==================End Portfolio================== */

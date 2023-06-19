@@ -1,5 +1,4 @@
 /* ************************ Mobile and Tablet ************************ */
-
 @media screen and (max-width: 1157px) {
   /* =======Header======= */
   .header-nav {
@@ -45,9 +44,6 @@
     flex-wrap: wrap;
   }
   /* =======End Customers======= */
-  /* =======Footer======= */
-
-  /* =======End Footer======= */
 }
 
 /* ************************ Only Mobile ************************ */
@@ -108,8 +104,21 @@
     width: 90%;
     padding-left: 16px;
     padding-right: 16px;
+    /* overflow: auto; */
   }
   /* =======End Modal window======= */
+  /* =======Portfolio======= */
+  .portfolio-list-btns {
+    flex-wrap: wrap;
+    row-gap: 16px;
+    max-width: 294px;
+  }
+
+  .portfolio-list {
+    flex-direction: column;
+    row-gap: 48px;
+  }
+  /* =======End Portfolio======= */
 }
 
 /* ************************ Mini-Mobile ************************ */
@@ -142,7 +151,6 @@
 }
 
 /* ************************ Mobile ************************ */
-
 @media screen and (min-width: 428px) {
   .container {
     max-width: 426px;
@@ -160,7 +168,6 @@
 }
 
 /* ************************ Tablet ************************ */
-
 @media screen and (min-width: 768px) {
   .container {
     max-width: 766px;
@@ -255,10 +262,33 @@
     width: 264px;
   }
   /* =======End Footer======= */
+  /* =======Portfolio======= */
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .portfolio-list-btns {
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+
+  .portfolio-btn {
+    padding: 12px 24px;
+  }
+
+  .portfolio-list {
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .portfolio-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+  /* =======End Portfolio======= */
 }
 
 /* ************************ Desktop ************************ */
-
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
@@ -361,4 +391,22 @@
     margin-right: 80px;
   }
   /* =======End Footer======= */
+  /* =======Portfolio======= */
+  .portfolio {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  .portfolio-list-btns {
+    margin-bottom: 72px;
+  }
+
+  .portfolio-list {
+    row-gap: 48px;
+  }
+
+  .portfolio-list-item {
+    width: calc((100% - 48px) / 3);
+  }
+  /* =======End Portfolio======= */
 }
