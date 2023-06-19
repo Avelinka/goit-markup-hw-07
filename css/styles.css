@@ -276,7 +276,8 @@ button {
 
 .mobile-social-list {
   display: flex;
-  gap: 56px;
+  max-width: 328px;
+  justify-content: space-between;
 }
 
 .mobile-social-item {

@@ -85,6 +85,10 @@
   .team .container {
     max-width: 294px;
   }
+  .team-icons-list {
+    max-width: 232px;
+    justify-content: space-between;
+  }
   /* =======End Our team======= */
   /* =======Footer======= */
   .footer-container {
@@ -136,20 +140,12 @@
   .mobile-tel-link {
     font-size: 26px;
   }
-
-  .mobile-social-list {
-    gap: 32px;
-  }
   /* =======End Mobile Hamburger Menu======= */
 }
 @media screen and (max-width: 294px) {
   /* =======Mobile Hamburger Menu======= */
   .mobile-tel-link {
     font-size: 20px;
-  }
-
-  .mobile-social-list {
-    gap: 12px;
   }
   /* =======End Mobile Hamburger Menu======= */
   /* =======Our team======= */
