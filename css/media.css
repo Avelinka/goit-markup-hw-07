@@ -52,6 +52,7 @@
   /* =======Customers======= */
   .customers-list {
     flex-wrap: wrap;
+    row-gap: 72px;
   }
   /* =======End Customers======= */
 }
@@ -90,6 +91,11 @@
     justify-content: space-between;
   }
   /* =======End Our team======= */
+  /* =======Customers======= */
+  .customers-list {
+    column-gap: 16px;
+  }
+  /* =======End Customers======= */
   /* =======Footer======= */
   .footer-container {
     text-align: center;
@@ -234,10 +240,6 @@
   /* =======Customers======= */
   .customers .container {
     max-width: 582px;
-  }
-
-  .customers-list {
-    column-gap: 24px;
   }
 
   .customers-list-item {

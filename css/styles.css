@@ -530,7 +530,7 @@ button {
 
 .customers-list {
   display: flex;
-  gap: 72px 16px;
+  column-gap: 24px;
 }
 
 .customers-list-item {
