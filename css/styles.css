@@ -278,6 +278,7 @@ button {
   display: flex;
   max-width: 328px;
   justify-content: space-between;
+  margin-right: 40px;
 }
 
 .mobile-social-item {
@@ -414,7 +415,7 @@ button {
 }
 
 .whatdoing-list-item {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .whatdoing-img {
@@ -570,10 +571,6 @@ button {
   padding: 96px 0;
 }
 /* ==================Footer Logo================== */
-.footer-logo-box {
-  max-width: 268px;
-}
-
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -637,9 +634,6 @@ button {
 }
 /* ==================End Footer Social Media================== */
 /* ==================Footer Subscribe================== */
-.subscribe-box {
-  max-width: 100%;
-}
 
 .subscribe-text {
   font-weight: 500;
@@ -651,7 +645,6 @@ button {
 }
 
 .subscribe-form-email {
-  width: 100%;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: transparent;

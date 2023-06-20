@@ -86,9 +86,11 @@
   .team .container {
     max-width: 294px;
   }
+
   .team-icons-list {
     max-width: 232px;
     justify-content: space-between;
+    gap: 0;
   }
   /* =======End Our team======= */
   /* =======Customers======= */
@@ -99,6 +101,10 @@
   /* =======Footer======= */
   .footer-container {
     text-align: center;
+  }
+
+  .footer-logo-box {
+    max-width: 268px;
   }
 
   .footer-text {
@@ -113,8 +119,14 @@
     margin: 0 auto 72px;
   }
 
+  .social-media-list {
+    justify-content: space-between;
+    gap: 0;
+  }
+
   .subscribe-form-email {
     max-width: 398px;
+    width: 100%;
     margin: 0 auto 16px;
   }
   /* =======End Footer======= */
@@ -154,11 +166,6 @@
     font-size: 20px;
   }
   /* =======End Mobile Hamburger Menu======= */
-  /* =======Our team======= */
-  .team-icons-list {
-    gap: 8px;
-  }
-  /* =======End Our team======= */
 }
 
 /* ************************ Mobile ************************ */
@@ -257,7 +264,7 @@
   }
 
   .footer-logo-box {
-    width: 264px;
+    max-width: 264px;
   }
 
   .subscribe-form {
@@ -286,7 +293,8 @@
 
   .portfolio-list {
     flex-wrap: wrap;
-    gap: 72px 24px;
+    row-gap: 72px;
+    column-gap: 24px;
   }
 
   .portfolio-list-item {
@@ -390,7 +398,6 @@
   }
 
   .footer-logo-box {
-    max-width: 264px;
     margin-right: 120px;
   }
 
